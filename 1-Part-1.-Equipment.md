@@ -18,3 +18,5 @@ Here is a list of all the equipment used in this tutorial with purchase links on
 - [**SMA to uFL Adapter**](https://www.adafruit.com/products/851) - $3.95
 
 	**Total:** $56.85 (plus tax/shipping)
+
+[<< Hardware Setup](0 Part 1. Hardware Setup) - [Part 1: Raspberry Pi Setup >>](2 Part 1. Raspberry Pi Setup)
