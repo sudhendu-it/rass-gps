@@ -35,7 +35,7 @@ The Adafruit Ultimate GPS Breakout Board contains a convenient onboard uFL male 
 
 ###4. Antenna Placement
 
-Make sure the Antenna is placed in an area where it has clear line of site to soem sky. GPS requires at least 3 satellite fixes in order to triangulate a geographic position and at least 4 to get an altitude deminsion.
+Make sure the Antenna is placed in an area where it has clear line of site to some sky. GPS requires at least 3 satellite fixes in order to triangulate a geographic position and at least 4 to get an altitude deminsion.
 
 ![Antenna interfaces](./img/IMG_0247.jpg)
 
