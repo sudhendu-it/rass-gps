@@ -58,4 +58,4 @@ When you log in to your Initial State account, you should see a "GPS Tracker" bu
 
 ![Tiles GPS Data Map](./img/gps-tiles-map.png)
 
-[<< Part 2. Python Application](6 Part 2. Python Application) - [Part 3. Making It Mobile >>](7 Part 3. Making It Mobile)
+[<< Part 2. Python Application](6 Part 2. Python Application) - [Part 3. Making It Mobile >>](8 Part 3. Making It Mobile)
