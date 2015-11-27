@@ -46,7 +46,7 @@ Your config (in the same directory as the `app.py` should look like this with yo
 access_key: example_key
 ```
 
-###3. Testing
+###3. Making It Work
 
 You should now be able to test out the script with the following command:
 
