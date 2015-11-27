@@ -53,4 +53,4 @@ while True:
 		print "{time}: {lat},{lon}".format(time=data.timestamp,lat=data.latitude,lon=data.longitude)
 ```
 
-[<< Part 2. Application Development](5 Part 2. Application Development) - [Part 2. Streaming Data >>](7 Part 2. Streaming Data)
+[<< Part 2. Application Development](5 Part 2. Application Development) - [Part 2. Data Streaming >>](7 Part 2. Data Streaming)
