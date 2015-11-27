@@ -1,8 +1,6 @@
 This tutorial suggests using the current, latest release of Raspbian, nicknamed *Jessie*. You can use the previous version, nicknamed *Wheezy* as well, but keep in mind that the instructions will not be the same for both.
 
-If you're using Jessie, continue this tutorial with **Option 1**. If you have Wheezy and would like to upgrade to Jessie, here are some instructions. If you have Wheezy and want to stay with Wheezy, jump down to **Option 2**.
-
-#Option 1 (recommended)
+If you're using Jessie, continue this tutorial skipping the Wheezy sections. If you have Wheezy and would like to upgrade to Jessie, [here are some instructions](https://github.com/InitialState/node-hub/wiki/Part-1.-Upgrade-to-Raspbian-Jessie). If you have Wheezy and want to stay with Wheezy, pay attention to the notes.
 
 ###1. Installing Libraries
 
@@ -38,7 +36,9 @@ Edited:
 dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p6 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
 ```
 
-#####Option B: Commandline UI (works over SSH)
+>Wheezy Note: your edited line will look more like this `dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait`
+
+#####Option B: Commandline UI (works over SSH; options different for Wheezy)
 ```
 $ sudo raspi-config
 ```
@@ -57,7 +57,7 @@ Select `<No>`
 
 Then you may be prompted to restart your Raspberry Pi, select `<No>`. We'll reboot at the end.
 
-#####Option C: Through Raspbian Desktop (doesn't work over SSH)
+#####Option C: Through Raspbian Desktop (doesn't work over SSH; options different for Wheezy)
 
 Raspbian provides a UI to edit the raspi-config settings from the desktop as well by going to Configuration and following similar steps as the `raspi-config` ui steps as described in Option B.
 
@@ -67,6 +67,8 @@ Raspbian provides a UI to edit the raspi-config settings from the desktop as wel
 ```
 $ sudo systemctl disable serial-getty@ttyAMA0.service
 ```
+
+>Wheezy Note: Wheezy and Jessie have fundamentally different ways system services are started and managed. In Wheezy, you edit /etc/inittab instead. `sudo nano /etc/inittab` then comment out the line that says `T0:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100` by putting a `#` in front of it so that it is `#T0:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100` instead.
 
 ###3. Reboot
 
