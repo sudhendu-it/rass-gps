@@ -37,4 +37,6 @@ The Adafruit Ultimate GPS Breakout Board contains a convenient onboard uFL male 
 
 Make sure the Antenna is placed in an area where it has clear line of site to soem sky. GPS requires at least 3 satellite fixes in order to triangulate a geographic position and at least 4 to get an altitude deminsion.
 
+![Antenna interfaces](./img/IMG_0247.jpg)
+
 [<< Part 1. Raspberry Pi Setup](2 Part 1. Raspberry Pi Setup) - [Part 1. Configuring Serial and Testing >>](4 Part 1. Configuring Serial and Testing)
