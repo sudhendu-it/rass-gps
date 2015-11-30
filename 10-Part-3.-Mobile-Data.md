@@ -37,6 +37,6 @@ network={
 ```
 > Note: You will need to change the `ssid` to your phones name and the `psk` to the Wi-Fi Password your Personal Hotspot settings shows
 
-Now, when your Personal Hotspot is on and broadcasting over WiFi (make sure your phones WiFi is on as well) then your Raspberry Pi will automatically connect to it if it's on and in range. You can then use the data connection to stream data from the GPS through the Pi to Initial State.
+Now, when your Personal Hotspot is on and broadcasting over WiFi (make sure your phone's WiFi is on as well) then your Raspberry Pi will automatically connect to it if it's on and in range. You can then use the data connection to stream data from the GPS through the Pi to Initial State.
 
 [<< Part 3. Battery Power](8 Part 3. Battery Power)
