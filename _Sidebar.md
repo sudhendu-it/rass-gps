@@ -10,3 +10,5 @@
     - [Python Application](6 Part 2. Python Application)
     - [Data Streaming](7 Part 2. Data Streaming)
 - [**Part 3**: Making It Mobile](8 Part 3. Making It Mobile)
+	- [Battery Power](9 Part 3. Battery Power)
+	- [Mobile Data](10 Part 3. Mobile Data)
