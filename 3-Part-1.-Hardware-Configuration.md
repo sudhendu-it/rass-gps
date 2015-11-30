@@ -1,4 +1,4 @@
-Since we'll be setting this up using Raspberry Pi's HW UART, we'll only a simple  4 jumper wire configuration.
+Since we'll be setting this up using Raspberry Pi's HW UART, we'll only need a simple  4 jumper wire configuration.
 
 ###1. Soldering Ultimate GPS Breakout
 
