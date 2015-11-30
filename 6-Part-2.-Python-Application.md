@@ -2,7 +2,7 @@ We'll work through utilizing two python libraries to achieve our goal: `pynmea2`
 
 ###1. Getting Started
 
-Create or navitage to a directory to store your code:
+Create or navigate to a directory to store your code:
 
 ```
 $ mkdir pi-tracker
@@ -25,7 +25,7 @@ while True:
 		print "{time}: {lat},{lon}".format(time=data.timestamp,lat=data.latitude,lon=data.longitude)
 ```
 
-###2. Code Explination
+###2. Code Explanation
 
 #####1. imports
 Importing the `serial` and `pynmea2` modules
