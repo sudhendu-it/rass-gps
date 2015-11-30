@@ -1,6 +1,8 @@
 #Raspberry Pi GPS Tracker
 -----
 
+![GPS Hero](./img/gpshero.jpg)
+
 ###Goal
 Utilize the Raspberry Pi portable single-board computer as a foundation of a mobile GPS tracking device.
 
