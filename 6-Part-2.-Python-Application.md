@@ -2,7 +2,7 @@ We'll work through utilizing two python libraries to achieve our goal: `pynmea2`
 
 ###1. Getting Started
 
-Create or navitage to a directory to store your code:
+Create or navigate to a directory to store your code:
 
 ```
 $ mkdir pi-tracker
