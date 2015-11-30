@@ -25,7 +25,7 @@ while True:
 		print "{time}: {lat},{lon}".format(time=data.timestamp,lat=data.latitude,lon=data.longitude)
 ```
 
-###2. Code Explination
+###2. Code Explanation
 
 #####1. imports
 Importing the `serial` and `pynmea2` modules
