@@ -10,4 +10,6 @@ I researched many ways to accomplish this task without having to utilize superfl
 
 This tutorial will work step-by-step through building and programming a GPS Tracking device that is capable of streaming it's coordinates to Initial State for a near real-time map view.
 
+![Map View](https://initialstate.uservoice.com/assets/92868165/MapDrawPath.gif)
+
 [Part 1: Hardware Setup >>](0 Part 1. Hardware Setup)
