@@ -53,6 +53,8 @@ $ python app.py
 
 When you log in to your Initial State account, you should see a "GPS Tracker" bucket. When you select this bucket and select the "Tiles" application, you should see a map of the GPS coordinates like so:
 
-![Tiles GPS Data Map](./img/gps-tiles-map.png)
+![Tiles GPS Data Map](https://initialstate.uservoice.com/assets/92868165/MapDrawPath.gif)
+
+More information about the Map Tile including options and keyboard shortcuts can be found at http://support.initialstate.com/knowledgebase/articles/800232-tiles-map-view.
 
 [<< Part 2. Python Application](6 Part 2. Python Application) - [Part 3. Making It Mobile >>](8 Part 3. Making It Mobile)
