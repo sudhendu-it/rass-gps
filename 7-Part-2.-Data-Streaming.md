@@ -10,7 +10,7 @@ You're access key will look like this `BbDc3yOCexamplegbmuTBbzu2GSIC1Yq` but wil
 
 ###2. Refactor Python and Implement Initial State
 
-First we'll refactor the Python code to make it a little more robust.
+First we'll refactor the Python code to make it a little more robust. Edit your `app.py` like so:
 
 ```python
 import serial
@@ -36,12 +36,17 @@ except KeyboardInterrupt:
 	streamer.close()
 ```
 
-Your config (in the same directory as the `app.py` should look like this with your key instead of the `example_key`:
+You should create a new file called `isstreamer.ini` in the same directory as the python script above to configure your `access_key`
+
+```
+$ nano isstreamer.ini
+```
 
 ```
 [isstreamer.client_config]
-access_key: example_key
+access_key: example_key #replace with your real access key from initialstate.com
 ```
+>NOTE: quick reminder for those unfamiliar with `nano`. After you've made your edits to a file, you can write/save those changes by using `ctl`+`x` then `y` to confirm.
 
 ###3. Making It Work
 
