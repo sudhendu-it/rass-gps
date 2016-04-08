@@ -4,7 +4,7 @@ Now that we have coordinate and altitude data, we'll stream those points to Init
 
 If you have an Initial State account, you can go to [https://www.initialstate.com/app/#/account](https://www.initialstate.com/app/#/account?utm_source=github&utm_medium=github&utm_campaign=pi_gps) to get a Streaming Access Key.
 
-If you don't have an Initial State account, getting one is free and easy. All you need is an email address and a password. You can register at [https://www.initialstate.com/app/#/register](https://www.initialstate.com/app/#/register?utm_source=github&utm_medium=github&utm_campaign=pi_gps).
+If you don't have an Initial State account, getting one is free and easy. All you need is an email address and a password. You can register at  [https://app.initialstate.com/#/register/](https://app.initialstate.com/#/register/?utm_source=github&utm_medium=github&utm_campaign=pi_gps).
 
 You're access key will look like this `BbDc3yOCexamplegbmuTBbzu2GSIC1Yq` but will be unique to your account. This is something you won't want to share with anyone else and therefore will be something you'll want to keep out of code should you share your code in a public repository.
 
